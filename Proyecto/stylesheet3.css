@@ -1,0 +1,77 @@
+
+
+body{
+    background-color: beige;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px, 150px, 0px;
+}
+
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    
+}
+
+ol{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#caja{
+    border: 1px solid black;
+    width: 14%;
+    margin-left: 25px;
+}
+
+#indice{
+    margin-left: 40px;
+    font-style: bold;
+    font-size: large;
+}
+
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    width: 200px;
+    font-weight: bold;
+    font-size: small;
+    background-color:blanchedalmond;
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 25px;
+}
+
+figure{
+    margin-left: 150PX;
+    width: 32%;
+    display: inline-block;
+    border: 1px solid black;
+    position: relative;
+}
+
+figcaption{
+    color: white;
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: none;
+    background: rgba(0,0,0,0.7);
+    margin-left: 0px;
+    bottom: 0px;
+    width: 94%;
+    padding: 3%;
+}
+
+figure:hover figcaption{
+    display: block;
+}
+
+footer{
+    margin-top: 25px;
+    background-color: grey;
+    color: white;
+}
+
